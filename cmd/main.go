@@ -22,4 +22,4 @@ func main() {
 	server.GRPCServer.Stop()
 }
 
-// go run cmd/main.go -config ./config/test.yaml
+// go run cmd/main.go -config ./config/testing.yaml
