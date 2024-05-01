@@ -1,0 +1,6 @@
+env: "local"
+storage_path: "./database/users.db"
+token_ttl: 1h
+grpc:
+  port: 44044
+  timeout: 10h
