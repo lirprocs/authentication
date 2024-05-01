@@ -26,14 +26,14 @@ jobs:
       - name: Install dependencies
         run: go mod download
 
-      - name: Build application
-        run: go build -o myapp ./cmd
+#      - name: Build application
+#        run: go build -o myapp ./cmd
 
       - name: Start migration
         run: go run ./cmd/migrator --storage-path=./database/users.db --migrations-path=./database/migrations
 
-      - name: Start application
-        run: ./myapp &
+#      - name: Start application
+#        run: ./myapp &
 
       - name: Wait for application to start
         run: sleep 10
