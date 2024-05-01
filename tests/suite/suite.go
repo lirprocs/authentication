@@ -7,7 +7,6 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"net"
-	"os"
 	"strconv"
 	"testing"
 )
@@ -45,11 +44,11 @@ func New(t *testing.T) (context.Context, *Suite) {
 }
 
 func configPath() string {
-	const key = "CONFIG_PATH"
-
-	if v := os.Getenv(key); v != "" {
-		return v
-	}
+	//const key = "CONFIG_PATH"
+	//
+	//if v := os.Getenv(key); v != "" {
+	//	return v
+	//}
 
 	return "../config/local.yaml"
 }
