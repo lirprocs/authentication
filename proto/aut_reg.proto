@@ -17,7 +17,7 @@ service Auth {
   rpc Login (LoginRequest) returns (LoginResponse);
 }
 
-// TODO: На будущее, следующий сервис можно описать прямо здесь,
+// TODO: На будущее, следующий сервис можно описать прямо здесь
 // либо вынести в отдельный файл
 // service Permissions {
 //    GetUserPermissions(GetUserPermissionsRequest) return UserPermissions
