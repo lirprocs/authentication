@@ -1,4 +1,4 @@
-module github.com/lirprocs/authentication
+module module aut_reg
 
 go 1.22
 
