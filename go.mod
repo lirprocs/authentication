@@ -1,4 +1,4 @@
-module module aut_reg
+module aut_reg
 
 go 1.22
 
