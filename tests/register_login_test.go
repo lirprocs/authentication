@@ -1,10 +1,10 @@
 package tests
 
 import (
-	pb "aut_reg/proto/gen"
 	"aut_reg/tests/suite"
 	"github.com/brianvoe/gofakeit/v7"
 	"github.com/golang-jwt/jwt/v5"
+	pb "github.com/lirprocs/protosSSO/gen"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

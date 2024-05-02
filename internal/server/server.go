@@ -2,10 +2,10 @@ package server
 
 import (
 	"aut_reg/database"
-	pb "aut_reg/proto/gen"
 	"context"
 	"errors"
 	"fmt"
+	pb "github.com/lirprocs/protosSSO/gen"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

@@ -2,8 +2,8 @@ package suite
 
 import (
 	"aut_reg/internal/config"
-	pb "aut_reg/proto/gen"
 	"context"
+	pb "github.com/lirprocs/protosSSO/gen"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"net"
